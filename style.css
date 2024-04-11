@@ -1,5 +1,5 @@
-body{
-background-color: #CCCC;
+.principal{
+  background-color: #CCCC;
 }
 
 h1{
@@ -10,11 +10,27 @@ p{
   text-align: center;
 }
 
+
 em strong{
   color: #FF0000;
+}
+
+.beneficios{
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
+h2{
+  text-align: center;
 }
 
 .item{
   font-style: italic;
 }
 
+ul{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  
+}
