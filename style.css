@@ -1,38 +1,38 @@
-.titulo-principal{
+.titulo-principal {
   padding-left: 20px;
 }
 
 
-.principal{
+.principal {
   background-color: #CCCC;
 }
 
 
-p{
+p {
   text-align: center;
 }
 
 
-em strong{
+em strong {
   color: #FF0000;
 }
 
-.beneficios{
+.beneficios {
   background-color: #FFFFFF;
   padding: 20px;
 }
 
-.item{
+.item {
   font-style: italic;
 }
 
-ul{
+ul {
   display: inline-block;
   vertical-align: top;
   width: 20%;
-  
+
 }
 
-.texto-centralizado{
-text-align: center;
+.texto-centralizado {
+  text-align: center;
 }
