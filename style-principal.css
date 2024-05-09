@@ -19,7 +19,6 @@ nav {
 nav li {
   display: inline;
   margin: 0 0 0 15px;
-  left: 32px
 }
 
 nav a {
@@ -91,4 +90,23 @@ footer{
   color: #FFFFFF;
   font-size: 13px;
   margin-top: 20px;
+}
+
+main{
+  width: 940px;
+  margin: 0 auto;
+}
+
+form{
+  margin: 40px 0;
+}
+
+form label{
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+form input{
+  display: block;
 }
