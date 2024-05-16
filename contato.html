@@ -38,27 +38,30 @@
       <label for="mensagem">Mensagem</label>
       <textarea class="imput-padrao" cols="100" rows="10" id="mensagem"></textarea>
 
-      <p>Como prefere o nosso contato?</p>
+      <fieldset>
 
-      <input type="radio" name="contato" value="email" id="radio-email">
+        <legend>Como prefere o nosso contato?</legend>
 
-      <label for="radio-telefone"><input type="radio" name="contato" value="telefone"
-          id="radio-telefone">Telefone</label <label for="radio-whatsapp"><input type="radio" name="contato"
-        value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+        <input type="radio" name="contato" value="email" id="radio-email">
 
-
-      </div>
-
-      <p>Qual horário você prefere ser atendido?</p>
-      <select>
-        <option>Manhã</option>
-        <option>Tarde</option>
-        <option>Noite</option>
-      </select>
+        <label for="radio-telefone"><input type="radio" name="contato" value="telefone"
+            id="radio-telefone">Telefone</label <label for="radio-whatsapp"><input type="radio" name="contato"
+          value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
 
 
+      </fieldset>
+      <fieldset>
+        <legend>Qual horário você prefere ser atendido?</legend>
+        <select>
+          <option>Manhã</option>
+          <option>Tarde</option>
+          <option>Noite</option>
+        </select>
+      </fieldset>
 
-      <label <input class="checkbox" type="checkbox">Gostaria de receber nossas ofertas por e-mail?</label>
+
+
+      <label <input class="checkbox" type="checkbox" checked>Gostaria de receber nossas ofertas por e-mail?</label>
 
       <input type="submit" value="Enviar o formulário">
 
