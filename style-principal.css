@@ -110,3 +110,7 @@ form label{
 form input{
   display: block;
 }
+
+.checkbox{
+  margin: 20px 0;
+}
