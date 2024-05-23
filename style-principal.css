@@ -114,3 +114,20 @@ form input{
 .checkbox{
   margin: 20px 0;
 }
+
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 2s background;
+}
+
+.enviar.hover{
+  background: purple;
+  transform: scale(1.2);
+}
