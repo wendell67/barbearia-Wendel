@@ -37,18 +37,20 @@
 
       <label @@for="mensagem">Mensagem</label>
       <textarea class="input-padrao" cols="100" rows="10" id="mensagem" required placeholder="Como podemos lhe ajudar?">
-        
+
       </textarea>
 
       <fieldset>
 
         <legend>Como prefere o nosso contato?</legend>
 
-        <input type="radio" name="contato" value="email" id="radio-email">
+
 
         <label for="radio-telefone"><input type="radio" name="contato" value="telefone"
             id="radio-telefone">Telefone</label <label for="radio-whatsapp"><input type="radio" name="contato"
           value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+
+        <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
 
 
       </fieldset>
@@ -63,7 +65,7 @@
 
 
 
-      <label class="checkbox" type="checkbox">Gostaria de receber nossas ofertas por e-mail?</label> 
+      <label class="checkbox">Gostaria de receber nossas ofertas por e-mail?</label>
 
       <input type="submit" value="Enviar o formulário" class="enviar">
 
