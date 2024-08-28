@@ -144,4 +144,9 @@ margin: 0 0 2cm;
   text-align: center;
 }
   
-
+.imagem-beneficios{
+  width: 50%;
+  opacity: 0.6;
+  transition: 1s;
+  box-shadow: 10px 10px 10 #00000;
+}
